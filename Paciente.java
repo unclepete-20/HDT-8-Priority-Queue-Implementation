@@ -9,12 +9,13 @@
 
 public class Paciente implements Comparable<Paciente>{
 
+    //Atributos de la clase paciente.
     private String nombre;
     private String enfermedad;
     private String prioridad;
     private int codigo;
 
-    public Paciente(String nombre, String enfermedad, String codigoPrioridad){
+    public Paciente(String nombre, String enfermedad, String codigoPrioridad){ //Constructor de la clase Paciente.
 
         this.nombre = nombre;
         this.enfermedad = enfermedad;
@@ -107,7 +108,7 @@ public class Paciente implements Comparable<Paciente>{
     @Override
     public String toString() {
 
-        return "Nombre: " + nombre + ", Enfermedad: " + enfermedad + ", Prioridad: " + prioridad;
+        return "Nombre: " + nombre + " Enfermedad: " + enfermedad + " Prioridad: " + prioridad;
     }
 
 
@@ -119,7 +120,7 @@ public class Paciente implements Comparable<Paciente>{
     @Override
     public int compareTo(Paciente o) {
 
-        return this.codigo - o.getCodigo();
+        return (this.codigo - o.getCodigo());
     }
 
     
