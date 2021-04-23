@@ -3,5 +3,5 @@ Maria Ramirez,apendicitis,A
 Lorenzo Toledo,chikunguya,E
 Carmen Sarmientos,dolores de parto,B
 Pedro Arriola,gripe,A
-Oscar Lopez,sida,C
-Marco Orozco,dengue,B
+Oscar Lopez,gonorrea,C
+Marco Orozco,sifilis,B

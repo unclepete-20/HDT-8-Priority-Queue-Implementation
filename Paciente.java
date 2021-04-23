@@ -4,7 +4,7 @@
  * Universidad del Valle de Guatemala
  * Algoritmos y estructuras de datos
  * Seccion 10
- * Hoja de trabajo 7
+ * Hoja de trabajo 8
  */
 
 public class Paciente implements Comparable<Paciente>{
@@ -22,7 +22,7 @@ public class Paciente implements Comparable<Paciente>{
         this.prioridad = codigoPrioridad;
     }
 
-    public void conversionClave(){
+    public void conversionClave(){ //Convierte las clavez alfabeticas por claves numericas.
         
         char clave = prioridad.charAt(0);
         int codigoNumerico = (int)(clave);

@@ -4,7 +4,7 @@
  * Universidad del Valle de Guatemala
  * Algoritmos y estructuras de datos
  * Seccion 10
- * Hoja de trabajo 7
+ * Hoja de trabajo 8
  */
 
 import java.util.Vector;
@@ -200,20 +200,5 @@ public class VectorHeap<E extends Comparable<E>> implements PriorityQueue<E>
 
 	public void removeFirst(){
 		data.remove(getFirst());
-	}
-
-	public void sort(){
-		int iteration = size();
-		for(int i = 0; i < iteration; i++){
-			E firstPatience = getFirst();
-			removeFirst();
-
-			if(size() != 0){
-				percolateUp(data.size()-1);
-				pushDownRoot(0);
-			}
-
-			System.out.println(firstPatience.toString());
-		}
 	}
 }

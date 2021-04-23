@@ -4,7 +4,7 @@
  * Universidad del Valle de Guatemala
  * Algoritmos y estructuras de datos
  * Seccion 10
- * Hoja de trabajo 7
+ * Hoja de trabajo 8
  */
 
 public interface PriorityQueue<E extends Comparable<E>>
